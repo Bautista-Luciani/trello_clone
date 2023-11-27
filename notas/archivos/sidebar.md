@@ -12,3 +12,4 @@
 11. Creamos el hook *useModalSidebar* ► `hooks/use-modal-sidebar.ts`
 12. Cremos el componente *MobileSidebar* ► `../(dashboard)/_components/mobile-sidebar.tsx`
 13. Usamos el componente MobileSidebar en el Navbar ► `../(dashboard)/_components/navbar.tsx`
+14. Creamos el SettingsPage ► `../organization/[organizationId]/settings/page.tsx`
