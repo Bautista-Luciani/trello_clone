@@ -15,3 +15,11 @@
 
 ## ZUSTAND (modal)
 >- `Zustand` → npm i zustand
+
+## PRISMA (db)
+>- `Prisma` → npm i -D prisma
+>- `Prisma (init)` → npx prisma init
+>- `Prisma Client` → npm i @prisma/client
+
+## ZOD (formularios)
+>- `Zod` → npm i zod
