@@ -4,3 +4,4 @@
 3. Cambiamos la metadata por lo definido en el archivo anterior ► `app/layout.tsx`
 4. Trabajamos en el Marketing Page ► `notas/archivos/markenting.md`
 5. Trabajamos en la autenticacion ► `notas/archivos/autenticacion.md`
+6. Trabajamos en el sidebar ► `notas/archivos/sidebar.md`
