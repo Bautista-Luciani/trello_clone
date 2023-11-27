@@ -17,7 +17,4 @@
     - npx prisma db push
 7. Instalamos prisma client ► npm i @prisma/client
 8. Creamos una library para poder acceder a la db ► `lib/db.ts`
-9. Instalamos zod ► npm i zod
-10. Creamos la accion para crear boards ► `actions/create-board.ts`
-11. Creamos la accion para eliminar boards ► `actions/delete-board.ts`
    

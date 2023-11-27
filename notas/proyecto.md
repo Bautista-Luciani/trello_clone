@@ -6,4 +6,4 @@
 5. Trabajamos en la autenticacion ► `notas/archivos/autenticacion.md`
 6. Trabajamos en el sidebar ► `notas/archivos/sidebar.md`
 7. Trabajamos en la base de datos ► `notas/archivos/db.md`
-8. Trabajamos en el borad ► `notas/archivos/board.md`
+8. Trabajamos en la creacion de un board ► `notas/archivos/board.md`
