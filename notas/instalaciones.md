@@ -6,6 +6,8 @@
 >- `Separator` → npx shadcn-ui@latest add separator
 >- `Accordion` → npx shadcn-ui@latest add accordion
 >- `Sheet` → npx shadcn-ui@latest add sheet
+>- `Input` → npx shadcn-ui@latest add input
+>- `Label` → npx shadcn-ui@latest add label
 
 ## CLERK (autenticacion)
 >- `Clerk` → npm install @clerk/nextjs
