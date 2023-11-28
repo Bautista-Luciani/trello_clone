@@ -8,6 +8,8 @@
 >- `Sheet` → npx shadcn-ui@latest add sheet
 >- `Input` → npx shadcn-ui@latest add input
 >- `Label` → npx shadcn-ui@latest add label
+>- `Tooltip` → npx shadcn-ui@latest add tooltip
+>- `Popover` → npx shadcn-ui@latest add popover
 
 ## CLERK (autenticacion)
 >- `Clerk` → npm install @clerk/nextjs
@@ -25,3 +27,6 @@
 
 ## ZOD (formularios)
 >- `Zod` → npm i zod
+
+## SONNER (toast)
+>- `Sonner` → npm i sonner
