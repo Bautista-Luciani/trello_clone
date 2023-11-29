@@ -2,7 +2,7 @@ import { z } from "zod"
 
 /* Definimos el tipo para los errores de cada input en individual */
 export type FieldErrors<T> = {
-    [K in keyof T]: string[]
+    [K in keyof T]?: string[]
 }
 
 /* Definimos el tipo para los estados de las acciones, las cuales van a tener un parametro de entrada y otro de salida */

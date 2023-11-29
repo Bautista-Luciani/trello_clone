@@ -40,6 +40,8 @@ const FormInput = forwardRef<HTMLInputElement, FormInputProps>(({ id, label, typ
                     : null
                 }
                 <Input
+                    id={id}
+                    name={id}
                     placeholder={placeholder}
                     required={required}
                     type={type}

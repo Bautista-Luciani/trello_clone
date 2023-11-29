@@ -1,5 +1,3 @@
-"use client"
-
 import { XCircle } from "lucide-react"
 
 interface FormErrorsProps {
@@ -16,7 +14,7 @@ const FormErrors = ({ id, errors }: FormErrorsProps) => {
     return (
         <div 
             id={`${id}-error`}
-            aria-label="polite"
+            aria-live="polite"
             className="mt-2 text-xs text-rose-500"
         >
             {

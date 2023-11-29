@@ -30,3 +30,6 @@
 
 ## SONNER (toast)
 >- `Sonner` → npm i sonner
+
+## UNSPLASH (images)
+>- `Unsplash` → npm i unsplash-js
