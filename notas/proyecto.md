@@ -8,3 +8,4 @@
 7. Trabajamos en la base de datos ► `notas/archivos/db.md`
 8. Trabajamos en la creacion de un board ► `notas/archivos/board.md`
 9. Trabajamos en el formulario ► `notas/archivos/form.md`
+10. Trabajamos en los boards ► `notas/archivos/boards.md`
