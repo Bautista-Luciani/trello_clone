@@ -33,3 +33,7 @@
 
 ## UNSPLASH (images)
 >- `Unsplash` → npm i unsplash-js
+
+## LODASH ()
+>- `Lodash` → npm i lodash
+>- `Lodash (types)` → npm i -D @types/lodash

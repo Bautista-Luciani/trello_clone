@@ -19,7 +19,9 @@ const buttonVariants = cva(
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
         /* Agregamos una clase al boton para usarlo en el navbar del dashboard */
-        primary: "bg-sky-700 text-primary-foreground hover:bg-sky-700/90"
+        primary: "bg-sky-700 text-primary-foreground hover:bg-sky-700/90",
+        /* Agregamos una clase al boton para usarlo en el navbar del board */
+        transparent: "bg-transparent text-white hover:bg-white/20"
       },
       size: {
         default: "h-10 px-4 py-2",

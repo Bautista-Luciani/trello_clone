@@ -8,4 +8,10 @@
 7. Trabajamos en la base de datos ► `notas/archivos/db.md`
 8. Trabajamos en la creacion de un board ► `notas/archivos/board.md`
 9. Trabajamos en el formulario ► `notas/archivos/form.md`
-10. Trabajamos en los boards ► `notas/archivos/boards.md`
+10. Trabajamos en los board list ► `notas/archivos/board.md`
+11. Hacemos que el nombre del navegador sea igual a la organizacion que nos encontramos:
+    - Instalamos lodash ► npm i lodash
+    - Instalamos los types de lodash ► npm i -D @types/lodash
+    - Creamos la funcion *generateMetadata* ► `.../[organizationId]/layout.tsx`
+12. Trabajamos en los board page ► `notas/archivos/board.md`
+    
