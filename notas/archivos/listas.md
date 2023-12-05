@@ -24,4 +24,14 @@
 12. Usamos el ListWrapper en el ListForm ► `.../(dashboard)/board/[boardId]/_components/list-form.tsx`
 13. Usamos el ListForm y el ListItem en el ListContainer ► `.../[boardId]/_components/list-container.tsx`
 14. Usamos el ListContainer en el BoardIdPage ► `.../(dashboard)/board/[boardId]/page.tsx`
+15. Creamos la accion *deleteList* para crear listas ► `actions/delete-list`
+   - Primero creamos el *schema.ts*
+   - Segundo creamos el *types.ts*
+   - Por ultimo creamos el *index.ts* 
+16. Creamos la accion *copyList* para crear listas ► `actions/copy-list`
+   - Primero creamos el *schema.ts*
+   - Segundo creamos el *types.ts*
+   - Por ultimo creamos el *index.ts* 
+17. Creamos el componente *ListOptions* ► `.../(dashboard)/board/[boardId]/_components/list-options.tsx`
+18. Usamos el ListOptions en el ListHeader ► `.../(dashboard)/board/[boardId]/_components/list-header.tsx`
    
