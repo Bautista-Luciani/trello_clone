@@ -38,3 +38,6 @@
 ## LODASH ()
 >- `Lodash` → npm i lodash
 >- `Lodash (types)` → npm i -D @types/lodash
+
+## DRAG N' DROP
+>- `Drag n' drop` → npm i @hello-pangea/dnd
