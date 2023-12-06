@@ -15,4 +15,5 @@
     - Creamos la funcion *generateMetadata* ► `.../[organizationId]/layout.tsx`
 12. Trabajamos en los board page ► `notas/archivos/board.md`
 13. Trabajamos en las listas ► `notas/archivos/listas.md`
+14. Trabajamos en el card form ► `notas/archivos/cards.md`
     

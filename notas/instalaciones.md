@@ -10,6 +10,7 @@
 >- `Label` → npx shadcn-ui@latest add label
 >- `Tooltip` → npx shadcn-ui@latest add tooltip
 >- `Popover` → npx shadcn-ui@latest add popover
+>- `Textarea` → npx shadcn-ui@latest add textarea
 
 ## CLERK (autenticacion)
 >- `Clerk` → npm install @clerk/nextjs
