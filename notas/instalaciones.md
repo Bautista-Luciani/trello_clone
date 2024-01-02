@@ -11,6 +11,7 @@
 >- `Tooltip` → npx shadcn-ui@latest add tooltip
 >- `Popover` → npx shadcn-ui@latest add popover
 >- `Textarea` → npx shadcn-ui@latest add textarea
+>- `Dialog` → npx shadcn-ui@latest add dialog
 
 ## CLERK (autenticacion)
 >- `Clerk` → npm install @clerk/nextjs
@@ -41,3 +42,6 @@
 
 ## DRAG N' DROP
 >- `Drag n' drop` → npm i @hello-pangea/dnd
+
+## REACT QUERY
+>- `React Query` ► npm i @tanstack/react-query

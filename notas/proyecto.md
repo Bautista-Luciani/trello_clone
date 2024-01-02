@@ -17,4 +17,5 @@
 13. Trabajamos en las listas ► `notas/archivos/listas.md`
 14. Trabajamos en el card form ► `notas/archivos/cards.md`
 15. Trabajamos en el drag n' drop ► `notas/archivos/dragndrop.md`
+16. Trabajamos en el Card Modal ► `notas/archivos/cards.md`
     
