@@ -12,6 +12,7 @@
 >- `Popover` → npx shadcn-ui@latest add popover
 >- `Textarea` → npx shadcn-ui@latest add textarea
 >- `Dialog` → npx shadcn-ui@latest add dialog
+>- `Avatar` → npx shadcn-ui@latest add avatar
 
 ## CLERK (autenticacion)
 >- `Clerk` → npm install @clerk/nextjs
@@ -45,3 +46,6 @@
 
 ## REACT QUERY
 >- `React Query` ► npm i @tanstack/react-query
+
+## DATE-FNS (fechas)
+>- `Date-fns` ► npm i date-fns

@@ -30,6 +30,11 @@ const CardHeader = ({ data }: CardHeaderProps) => {
                 queryKey: ["card", data.id]
             })
 
+            /* Revalidamos los auditLogs al cambiar el nombre de la card */
+            queryClient.invalidateQueries({
+                queryKey: ["card-logs", data.id]
+            })
+
             toast.success(`Renamed to "${data.title}"`)
             setTitle(data.title)
         },

@@ -34,6 +34,11 @@ const CardDescription = ({ data }: CardDescriptionProps) => {
                 queryKey: ["card", data.id]
             })
 
+            /* Revalidamos los auditLogs al cambiar la descripcion de la card */
+            queryClient.invalidateQueries({
+                queryKey: ["card-logs", data.id]
+            })
+
             toast.success(`Card ${data.title} updated`)
             disableEditing()
         },
