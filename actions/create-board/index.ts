@@ -8,6 +8,8 @@ import { InputType, ReturnType } from "./types"
 import { CreateBoard } from "./schema"
 import { createAuditLog } from "@/lib/create-audit-log"
 import { ACTION, ENTITY_TYPE } from "@prisma/client"
+import { hasAvailableCount, incrementAvailableCount } from "@/lib/org-limit"
+import { checkSubscription } from "@/lib/subscription"
 
 /* Recordemos que lo que debe retornar esta funcion es data, error o fieldErrors,
 ya que fue lo que declaramos en el archivo 'create-safe-action' */
@@ -18,6 +20,15 @@ const handler = async(data: InputType): Promise<ReturnType> => {
     if(!userId || !orgId){
         return {
             error: "Unauthorized"
+        }
+    }
+
+    const canCreate = await hasAvailableCount()
+    const isPro = await checkSubscription()
+
+    if(!canCreate && !isPro){
+        return {
+            error: "You have reached your limit of free board. Please upgrade to create more."
         }
     }
 
@@ -49,6 +60,10 @@ const handler = async(data: InputType): Promise<ReturnType> => {
                 imageLinkHTML
             }
         })
+
+        if(!isPro){
+            await incrementAvailableCount()
+        }
 
         await createAuditLog({
             entityId: board.id,

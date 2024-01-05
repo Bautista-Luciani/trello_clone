@@ -11,6 +11,7 @@ import { toast } from "sonner"
 import FormPicker from "./form-picker"
 import { ElementRef, useRef } from "react"
 import { useRouter } from "next/navigation"
+import { useProModal } from "@/hooks/use-pro-modal"
 
 interface FormPopoverProps {
     children: React.ReactNode
@@ -25,6 +26,7 @@ const FormPopover = ({ children, side = "bottom", sideOffset = 0, align }: FormP
     Usamos el useRouter para redirijir al usuario al board creado */
     const closeRef = useRef<ElementRef<"button">>(null)
     const router = useRouter()
+    const proModal = useProModal()
 
     const { execute, fieldErrors } = useAction(createBoard, {
         onSuccess: (data) => {
@@ -34,6 +36,7 @@ const FormPopover = ({ children, side = "bottom", sideOffset = 0, align }: FormP
         },
         onError: (error) => {
             toast.error(error)
+            proModal.onOpen()
         }
     })
 

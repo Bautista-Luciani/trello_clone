@@ -49,3 +49,6 @@
 
 ## DATE-FNS (fechas)
 >- `Date-fns` ► npm i date-fns
+
+## STRIPE (pagos)
+>- `Stipe` ► npm i stripe

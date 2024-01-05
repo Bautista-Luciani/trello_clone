@@ -11,6 +11,7 @@ import { createSafeAction } from "@/lib/create-safe-action";
 import { redirect } from "next/navigation";
 import { createAuditLog } from "@/lib/create-audit-log";
 import { ACTION, ENTITY_TYPE } from "@prisma/client";
+import { decreaseAvailableCount } from "@/lib/org-limit";
 
 /* Recordemos que lo que debe retornar esta funcion es data, error o fieldErrors,
 ya que fue lo que declaramos en el archivo 'create-safe-action' */
@@ -35,6 +36,8 @@ const handler = async(data: InputType): Promise<ReturnType> => {
                 orgId
             }
         })
+
+        await decreaseAvailableCount()
 
         await createAuditLog({
             entityId: board.id,

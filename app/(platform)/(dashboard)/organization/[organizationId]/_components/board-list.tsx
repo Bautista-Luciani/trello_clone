@@ -6,6 +6,9 @@ import { HelpCircle, User2 } from "lucide-react"
 import Link from "next/link"
 import { redirect } from "next/navigation"
 import { Skeleton } from '@/components/ui/skeleton';
+import { getAvailableCount } from "@/lib/org-limit"
+import { MAX_FREE_BOARDS } from "@/constants/board"
+import { checkSubscription } from "@/lib/subscription"
 
 const BoardList = async () => {
 
@@ -23,6 +26,9 @@ const BoardList = async () => {
             createdAt: "desc"
         }
     })
+
+    const availableCount = await getAvailableCount()
+    const isPro = await checkSubscription()
 
     return (
         <div className="space-y-4">
@@ -54,7 +60,11 @@ const BoardList = async () => {
                     >
                         <p className="text-sm" >Create new board</p>
                         <span className="text-xs" >
-                            5 remaining
+                            {
+                                isPro
+                                ? "Unlimited"
+                                : `${ MAX_FREE_BOARDS - availableCount } remaining`
+                            }
                         </span>
                         <Hint
                             sideOffset={40}
