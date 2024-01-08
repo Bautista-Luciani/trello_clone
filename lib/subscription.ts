@@ -1,7 +1,7 @@
 import { auth } from "@clerk/nextjs"
 import { db } from "./db"
 
-const DAYS_IN_MS = 84_400_000
+const DAYS_IN_MS = 86_400_000
 
 /* Funcion para chequear subscripcion */
 export const checkSubscription = async () => {
