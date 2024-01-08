@@ -20,4 +20,4 @@
 16. Trabajamos en el Card Modal ► `notas/archivos/cards.md`
 17. Trabajamos en las actividades ► `notas/archivos/activity.md`
 18. Trabajamos en el board limit ► `notas/archivos/board.md`
-    
+19. Trabajamos en el deploy ► `notas/archivos/deploy.md`
