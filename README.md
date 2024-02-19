@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Trello Clone
 
-## Getting Started
+Trello Clone is a project aimed at replicating the core functionalities of Trello, a popular project management tool. The application is built using modern technologies to provide a seamless user experience.
 
-First, run the development server:
+## Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Shadcn UI**: User interface components.
+- **Clerk**: Secure user authentication.
+- **UseHook**: Custom hooks for optimized logic.
+- **Zustand**: Global state management.
+- **Prisma + MySQL with PlanetScale**: Database for efficient data storage.
+- **Zod**: Form validation for enhanced user input handling.
+- **Unsplash**: Image downloading for adding visuals to boards.
+- **hello-pangea/dnd**: Drag and drop functionality for task management.
+- **Stripe**: Payment processing for premium features.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Board Management**: Create, update, and delete boards.
+- **List and Card Management**: Organize tasks with lists and cards.
+- **Secure Authentication**: User authentication powered by Clerk.
+- **Global State Management**: Zustand for efficient management of application state.
+- **Efficient Database Storage**: Prisma + MySQL with PlanetScale for scalable and reliable data storage.
+- **Form Validation**: Zod for ensuring data integrity and user input validation.
+- **Image Downloads**: Utilize Unsplash for downloading images to enhance boards.
+- **Drag and Drop**: hello-pangea/dnd for intuitive task management.
+- **Payment Processing**: Stripe integration for handling premium feature subscriptions.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Accessing the Application
 
-## Learn More
+The Jotion application is deployed and available online. You can access it by clicking on the following link: [Trello App](https://next14-trello-6ag9z5u9x-bautistas-projects.vercel.app)
 
-To learn more about Next.js, take a look at the following resources:
+Thank you for using Trello Clone!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+***
+***
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# Trello Clone
 
-## Deploy on Vercel
+Trello Clone es un proyecto destinado a replicar las funcionalidades principales de Trello, una herramienta popular de gestión de proyectos. La aplicación está construida utilizando tecnologías modernas para proporcionar una experiencia de usuario fluida.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tecnologías Utilizadas
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Shadcn UI**: Componentes de interfaz de usuario.
+- **Clerk**: Autenticación segura de usuarios.
+- **UseHook**: Hooks personalizados para lógica optimizada.
+- **Zustand**: Gestión de estado global.
+- **Prisma + MySQL con PlanetScale**: Base de datos para almacenamiento eficiente de datos.
+- **Zod**: Validación de formularios para un manejo mejorado de la entrada del usuario.
+- **Unsplash**: Descarga de imágenes para agregar visuales a los tableros.
+- **hello-pangea/dnd**: Funcionalidad de arrastrar y soltar para la gestión de tareas.
+- **Stripe**: Procesamiento de pagos para características premium.
+
+## Características
+
+- **Gestión de Tableros**: Crear, actualizar y eliminar tableros.
+- **Gestión de Listas y Tarjetas**: Organizar tareas con listas y tarjetas.
+- **Autenticación Segura**: Autenticación de usuarios segura proporcionada por Clerk.
+- **Gestión de Estado Global**: Zustand para una gestión eficiente del estado de la aplicación.
+- **Almacenamiento Eficiente en Base de Datos**: Prisma + MySQL con PlanetScale para un almacenamiento de datos escalable y confiable.
+- **Validación de Formularios**: Zod para garantizar la integridad de los datos y la validación de la entrada del usuario.
+- **Descargas de Imágenes**: Utilizar Unsplash para descargar imágenes y mejorar los tableros.
+- **Arrastrar y Soltar**: hello-pangea/dnd para una gestión intuitiva de tareas.
+- **Procesamiento de Pagos**: Integración de Stripe para el manejo de suscripciones a características premium.
+
+## Acceso a la Aplicación
+
+La aplicación Jotion está desplegada y disponible en línea. Puedes acceder a ella haciendo clic en el siguiente enlace: [Trello App](https://next14-trello-6ag9z5u9x-bautistas-projects.vercel.app)
+
+¡Gracias por utilizar Trello Clone!
