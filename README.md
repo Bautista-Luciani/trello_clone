@@ -28,7 +28,7 @@ Trello Clone is a project aimed at replicating the core functionalities of Trell
 
 ## Accessing the Application
 
-The Jotion application is deployed and available online. You can access it by clicking on the following link: [Trello App](https://next14-trello-6ag9z5u9x-bautistas-projects.vercel.app)
+The Jotion application is deployed and available online. You can access it by clicking on the following link: [Trello App](next14-trello-xi.vercel.app)
 
 Thank you for using Trello Clone!
 
@@ -65,6 +65,6 @@ Trello Clone es un proyecto destinado a replicar las funcionalidades principales
 
 ## Acceso a la Aplicación
 
-La aplicación Jotion está desplegada y disponible en línea. Puedes acceder a ella haciendo clic en el siguiente enlace: [Trello App](https://next14-trello-6ag9z5u9x-bautistas-projects.vercel.app)
+La aplicación Jotion está desplegada y disponible en línea. Puedes acceder a ella haciendo clic en el siguiente enlace: [Trello App](next14-trello-xi.vercel.app)
 
 ¡Gracias por utilizar Trello Clone!
